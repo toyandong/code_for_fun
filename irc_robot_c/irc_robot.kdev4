@@ -1,0 +1,4 @@
+[Project]
+Name=irc_robot
+Manager=KDevCMakeManager
+VersionControl=

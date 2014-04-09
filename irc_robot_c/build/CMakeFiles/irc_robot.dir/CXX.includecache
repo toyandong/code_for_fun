@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yandong/projects/irc_robot/main.cpp
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+string.h
+-
+unistd.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+netdb.h
+-
+sys/socket.h
+-
+sys/wait.h
+-
+
