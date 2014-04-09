@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yandong/projects/cdecl/main.cpp
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+stdlib.h
+-
+
